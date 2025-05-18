@@ -1,0 +1,9 @@
+<div class="card-container">
+    <app-card
+      *ngFor="let user of users"
+      [id]="user.id"
+      [name]="user.name"
+      [title]="user.title">
+    </app-card>
+  </div>
+  

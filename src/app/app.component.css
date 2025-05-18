@@ -1,0 +1,11 @@
+.main-content {
+    padding-top: 60px; /* Adjust based on your fixed header height */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,5 @@
+<div class="card">
+  <h2>{{ name }}</h2>
+  <p>{{ title }}</p>
+  <a [routerLink]="['/user-details']" [queryParams]="{ id: id }">View Details</a>
+</div>

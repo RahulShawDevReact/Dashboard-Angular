@@ -1,6 +1,31 @@
-# Poc
+# Dashboard 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.To showcase the builiding card resuable compoent and it core concept implementation of Angular js.
+
+## 🔧 Feature
+
+### ✅ Angular Component
+
+#### 🔹 Selector Types
+- Element selectors  
+- Class selectors  
+- Attribute selectors  
+- ID selectors  
+- Selectors with multiple attributes  
+- Comma-separated selectors 
+
+#### 🔹 Templates
+- Inline templates
+- File approach
+
+#### 🔹 Styles
+- Inline templates
+- File approach
+
+
+### ✅ Angular Router
+- Children Route implementation
+
 
 ## Development server
 
@@ -19,6 +44,19 @@ Angular CLI includes powerful code scaffolding tools. To generate a new componen
 ```bash
 ng generate component component-name
 ```
+To generate a service in Angular using the CLI, use the following command,run:
+
+```bash
+ng generate service service-name
+```
+
+To generate an interface in Angular (TypeScript) using the CLI, use:
+
+```bash
+ng generate interface interface-name
+```
+
+
 
 For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
@@ -57,3 +95,5 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
