@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common'; // ✅ Required for *ngFor, *ngI
 @Component({
   selector: 'app-root',
   standalone: true, // ✅ Ensure this is marked standalone
-  imports: [CommonModule,RouterOutlet,HeaderComponent,FooterComponent,CardComponent],
+  imports: [CommonModule,RouterOutlet,HeaderComponent,FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
